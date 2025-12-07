@@ -20,7 +20,7 @@ jobs:
       - name: Build project
         shell: cmd
         run: |
-          cl /EHsc /std:c++17 GitActionsHW\*.cpp /Fe:build_app.exe
+          cl /EHsc GitActionsHW\*.cpp /Fe:build_app.exe
           echo Build OK
 
 
@@ -36,7 +36,7 @@ jobs:
       - name: Build tests
         shell: cmd
         run: |
-          cl /EHsc /std:c++17 GitActionsHW\*.cpp tests\Unit_tests.cpp /Fe:tests.exe
+          cl /EHsc GitActionsHW\*.cpp tests\Unit_tests.cpp /Fe:tests.exe
 
       - name: Run tests
         shell: cmd
@@ -55,7 +55,7 @@ jobs:
       - name: Build release version
         shell: cmd
         run: |
-          cl /EHsc /std:c++17 GitActionsHW\*.cpp /Fe:app.exe
+          cl /EHsc GitActionsHW\*.cpp /Fe:app.exe
 
       - name: Deploy locally
         shell: cmd
