@@ -37,11 +37,6 @@ void test_mass_search() {
     free(res);
 }
 
-int tests() {
-    test_mass_insert();
-    test_mass_delete();
-    test_mass_search();
-
-    printf("All tests passed!\n");
-    return 0;
+int int main() {
+    return tests();
 }
