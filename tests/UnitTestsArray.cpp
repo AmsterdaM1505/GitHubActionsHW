@@ -1,6 +1,6 @@
 #include <iostream>
 #include <assert.h>
-#include "Array.h"
+#include "../GitActionsHW/Array.h"
 
 void test_mass_insert() {
     int arr[3] = { 0, 1, 2 };
