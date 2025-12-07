@@ -7,7 +7,7 @@ void test_mass_insert() {
     int* res = mass_insert(arr, 3, 8, 1);
 
     assert(res != NULL);
-    assert(res[0] == 1);
+    assert(res[0] == 0);
     assert(res[1] == 8);
     assert(res[2] == 1);
     assert(res[3] == 2);
