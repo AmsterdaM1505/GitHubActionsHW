@@ -37,7 +37,7 @@ void test_mass_search() {
     free(res);
 }
 
-int int main() {
+int main() {
     test_mass_insert();
     test_mass_delete();
     test_mass_search();
