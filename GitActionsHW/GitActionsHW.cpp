@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int general()
+int main()
 {
 	ArrayTest();
 	return 0;
