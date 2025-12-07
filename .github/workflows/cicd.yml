@@ -36,7 +36,7 @@ jobs:
       - name: Build tests
         shell: cmd
         run: |
-          cl /EHsc GitActionsHW\*.cpp tests\Unit_tests.cpp /Fe:tests.exe
+          cl /EHsc GitActionsHW\*.cpp tests\UnitTestsArray.cpp /Fe:tests.exe
 
       - name: Run tests
         shell: cmd
