@@ -7,8 +7,6 @@ using namespace std;
 int main()
 {
 	ArrayTest();
-
-
 	return 0;
 }
 
